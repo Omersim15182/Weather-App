@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+   
+
+}
+body {
+    background-size: cover;
+
+}
+
+
+.city{
+  display: flex;
+justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg,#9ae5e5,#108b46);
+     position: relative;
+     top: 400px;
+     /* background-color:rgba(251, 251, 251, 0.95); */
+   background-blend-mode:normal ;
+}
+
+.sundayWeather{
+ display: flex;
+ flex-direction: row-reverse;
+ flex-direction: column;
+}
+.sundayIcon{
+    width: 100px;
+    height: 150px;
+    align-self: center;
+    
+}
+.card h1{
+    font-size: 30px;
+    background-blend-mode:normal     ;
+}
+.mondayWeather{
+    display: flex;
+ flex-direction: row-reverse;
+ flex-direction: column;
+}
+.mondayIcon{
+    width: 100px;
+    height: 150px;
+    align-self: center;
+}
+
+.tuesdayWeather{
+    display: flex;
+ flex-direction: row-reverse;
+ flex-direction: column;
+}
+
+.tuesdayIcon{
+    width: 100px;
+    height: 150px;
+    align-self: center;
+}
+
+.wednesdayWeather{
+    display: flex;
+ flex-direction: row-reverse;
+ flex-direction: column;
+   
+}
+.wednesdayIcon{
+    width: 100px;
+    height: 150px;
+    align-self: center;
+}
+
+.thursdayWeather{
+    display: flex;
+    flex-direction: column;
+}
+
+.thursdayIcon{
+    width: 100px;
+    height: 150px;
+    align-self: center;
+}
+
+.fridayWeather{
+    display: flex;
+ flex-direction: row-reverse;
+ flex-direction: column;
+}
+
+.fridayIcon{
+    width: 100px;
+    height: 150px;
+    align-self: center;
+}
+
+.saturdayWeather{
+    display: flex;
+ flex-direction: row-reverse;
+ flex-direction: column;
+}
+
+.saturdayIcon{
+    width: 100px;
+    height: 150px;  
+    align-self: center;
+}
