@@ -1,5 +1,7 @@
 const apiKey="1e5a813a2afbafdcfa4de23fe1badf37";
 const apiUrl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+export var city="gedera";
+
 
 const searchBox = document.querySelector(".search input");
 const searchButton = document.querySelector(".search button");
@@ -40,5 +42,8 @@ async function checkWeather(city){
 
 searchButton.addEventListener("click",()=>{
     checkWeather(searchBox.value);
+    var city=searchBox.value;
+    console.log(city);
+    
 })
 
