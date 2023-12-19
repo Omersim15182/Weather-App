@@ -40,17 +40,16 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      
   
 }
-.sundayWeather p{
+.card p{
     color: rgb(185, 219, 225);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
     
 }
 
 .sundayWeather{
  display: flex;
- flex-direction: row-reverse;
  flex-direction: column;
- border: 10px solid #0a3634b4;
- background-color: #ffffff40;
  width: 180px;
  background: linear-gradient(246deg, black, transparent);
 
@@ -71,10 +70,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .mondayWeather{
     display: flex;
- flex-direction: row-reverse;
  flex-direction: column;
- border: 10px solid #0a3634b4;
- background-color: #ffffff40;
  width: 180px;
  background: linear-gradient(246deg, black, transparent);
 
@@ -88,10 +84,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 .tuesdayWeather{
     display: flex;
- flex-direction: row-reverse;
  flex-direction: column;
- border: 10px solid #0a3634b4;
- background-color: #ffffff40;
  width: 180px;
  background: linear-gradient(246deg, black, transparent);
 
@@ -107,10 +100,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 .wednesdayWeather{
     display: flex;
- flex-direction: row-reverse;
  flex-direction: column;
- border: 10px solid #0a3634b4;
- background-color: #ffffff40;
  width: 180px;
  background: linear-gradient(246deg, black, transparent);
 
@@ -126,10 +116,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 .thursdayWeather{
     display: flex;
-    flex-direction: row-reverse;
     flex-direction: column;
-    border: 10px solid #0a3634b4;
-    background-color: #ffffff40;
     width: 180px;
     background: linear-gradient(246deg, black, transparent);
 
@@ -146,10 +133,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 .fridayWeather{
     display: flex;
- flex-direction: row-reverse;
  flex-direction: column;
- border: 10px solid #0a3634b4;
- background-color: #ffffff40;
  width: 180px;
  background: linear-gradient(246deg, black, transparent);
 
@@ -166,10 +150,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 .saturdayWeather{
     display: flex;
- flex-direction: row-reverse;
  flex-direction: column;
- border: 10px solid #0a3634b4;
- background-color: #ffffff40;
  width: 180px;
  background: linear-gradient(246deg, black, transparent);
 
