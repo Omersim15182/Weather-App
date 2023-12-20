@@ -1,9 +1,6 @@
 const apiKey = "1e5a813a2afbafdcfa4de23fe1badf37";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
-// import {zonda} from './weatherAllWeek'
-
-
 const searchBox = document.querySelector(".search input");
 const searchButton = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
@@ -41,11 +38,13 @@ async function checkWeather(city) {
 
 }
 
-
-
-searchButton.addEventListener("click",()=>{
+    searchButton.addEventListener("click",()=>{
     checkWeather(searchBox.value);
     var city=searchBox.value;
-    console.log(city);
-    localStorage.setItem('shareData',searchBox.value);
+    window.open(`http://127.0.0.1:5500/Weather%20App/weatherAllWeek.html?city=${city}`, "_blank");
+    
+
 })
+
+  
+
