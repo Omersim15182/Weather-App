@@ -36,7 +36,6 @@ async function checkWeather(city) {
         weatherIcon.src = "./images/clear.png";
     }
 
-
 }
 
 searchButton.addEventListener("click", () => {

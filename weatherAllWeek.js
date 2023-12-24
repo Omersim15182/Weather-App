@@ -27,7 +27,6 @@ async function checkWeather(city) {
         let day = d.getDay();
         console.log(day)
 
-
         switch (day) {
             case 0:
                 document.querySelector(".tempSunday").innerHTML = dataAllWeek.forecast.forecastday[i].day.avgtemp_c;
