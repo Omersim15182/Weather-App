@@ -1,5 +1,6 @@
 const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saterday', 'sunday'];
 
+
 const weatherIconsWeek = [document.querySelector(".sundayIcon"), document.querySelector(".mondayIcon"), document.querySelector(".tuesdayIcon"),
 document.querySelector(".wednesdayIcon"), document.querySelector(".thursdayIcon"), document.querySelector(".fridayIcon"),
 document.querySelector(".saturdayIcon")];
@@ -11,7 +12,6 @@ const header = document.querySelector('.city')
 const params = new URLSearchParams(window.location.search);
 const cityName = params.get("city");
 header.innerHTML = cityName;
-
 
 
 checkWeather(cityName);
