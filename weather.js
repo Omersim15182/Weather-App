@@ -38,12 +38,10 @@ async function checkWeather(city) {
 
 }
 
-searchButton.addEventListener("click", () => {
+searchButton.addEventListener("click", function() {
     checkWeather(searchBox.value);
     var city = searchBox.value;
-    window.open(`http://127.0.0.1:5500/Weather%20App/weatherAllWeek.html?city=${city}`, "_blank");
-
-
+    window.location.href = `./weatherAllWeek.html?city=${city}`;
 })
 
 
